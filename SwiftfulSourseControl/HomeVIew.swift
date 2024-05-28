@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeVIew: View {
+    
+    @State private var title: String = " Some title"
     var body: some View {
         ZStack {
             Text("Screen2")
