@@ -15,12 +15,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("SwiftFulThinging!")
-            Button("Click me") {
+            Button("Subscribe me") {
                 
             }
-            Button("Click me") {
-                
-            }
+            
         }
         .padding()
         
