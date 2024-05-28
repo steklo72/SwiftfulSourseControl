@@ -14,7 +14,7 @@ struct ContentView: View {
                 .font(.title)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("SwiftFulThinging!")
+            Text("SwiftFul again!")
             Button("Subscribe me") {
                 
             }
