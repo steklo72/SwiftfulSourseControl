@@ -11,14 +11,8 @@ struct HomeVIew: View {
     
     @State private var title: String = " Some title"
     var body: some View {
-        ZStack {
-            Text("Screen2")
-            Text("Screen2")
-            Text("Screen2")
-        }
-        HStack {
-            Rectangle()
-                .fill(.red)
+        VStack {
+            Text(title)
         }
         
     }
