@@ -14,6 +14,10 @@ struct HomeVIew: View {
             Text("Screen2")
             Text("Screen2")
         }
+        HStack {
+            Rectangle()
+                .fill(.red)
+        }
         
     }
 }
