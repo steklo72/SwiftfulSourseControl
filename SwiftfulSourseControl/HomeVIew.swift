@@ -13,6 +13,8 @@ struct HomeVIew: View {
     var body: some View {
         VStack {
             Text(title)
+            Text(title)
+            Text(title)
         }
         
     }
